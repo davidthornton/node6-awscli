@@ -1,6 +1,6 @@
 FROM node:6
 
-# Upgrade yarn to v1.2.1
+# Upgrade yarn
 RUN npm install --global yarn@1.3.2
 
 # Install AWS CLI tools
